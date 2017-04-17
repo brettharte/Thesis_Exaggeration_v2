@@ -1,0 +1,17 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BUTTON_AN : MonoBehaviour {
+
+
+
+	void OnTriggerEnter(Collider other) {
+
+		if(other.GetComponent<Collider>().tag == "Player")
+		{
+			GetComponent<Animation>().Play("button_push");
+		}
+
+	}
+}
