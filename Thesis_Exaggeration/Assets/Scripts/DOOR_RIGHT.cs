@@ -4,14 +4,18 @@ using UnityEngine;
 
 public class DOOR_RIGHT : MonoBehaviour {
 
+	public float animSpeed = 1f;
+	public Animation anim;
 
-
-	void OnTriggerEnter(Collider other) {
+    void OnTriggerEnter(Collider other) {
 
 		if(other.GetComponent<Collider>().tag == "Player")
 		{
-			GetComponent<Animation>().Play("door_close_RIGHT");
-		}
+			GetComponent<Animation>().Play("Right_Door_Open");
+			anim["Right_Door_Open"].speed = animSpeed;
+
+
+        }
 
 	}
 }

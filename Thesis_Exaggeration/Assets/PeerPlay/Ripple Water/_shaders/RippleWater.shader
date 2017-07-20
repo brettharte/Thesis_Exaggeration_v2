@@ -93,8 +93,8 @@ Shader "Custom/RippleWater" {
 		float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 		
 		
-		v.vertex.y += value0; //remove for no waves
-		v.normal.y += value0; //remove for no waves
+		//v.vertex.y += value0; //remove for no waves
+		//v.normal.y += value0; //remove for no waves
 		o.customValue += value0  ;
 
 		

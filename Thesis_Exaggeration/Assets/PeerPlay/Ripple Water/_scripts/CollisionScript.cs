@@ -9,16 +9,17 @@ public class CollisionScript : MonoBehaviour {
 	public Vector2[] impactPos;
 	public float[] distance;
 	public float speedWaveSpread;
+	public float waveAmp = 5f;
 
 	Mesh mesh;
 	// Use this for initialization
 	void Start () {
 		mesh = GetComponent<MeshFilter>().mesh;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-	
+
 		for (int i=0; i<8; i++){
 
 			waveAmplitude[i] = GetComponent<Renderer>().material.GetFloat("_WaveAmplitude" + (i+1));
@@ -39,6 +40,7 @@ public class CollisionScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision col){
+        //Debug.Log("surface on collision enter");
 		if (col.rigidbody)
 		{
 			waveNumber++;
@@ -59,7 +61,7 @@ public class CollisionScript : MonoBehaviour {
 			GetComponent<Renderer>().material.SetFloat("_OffsetX" + waveNumber, distanceX / mesh.bounds.size.x * 2.5f);
 			GetComponent<Renderer>().material.SetFloat("_OffsetZ" + waveNumber, distanceZ / mesh.bounds.size.z * 2.5f);
 
-			GetComponent<Renderer>().material.SetFloat("_WaveAmplitude" + waveNumber, col.rigidbody.velocity.magnitude * magnitudeDivider);
+			GetComponent<Renderer>().material.SetFloat("_WaveAmplitude" + waveNumber, waveAmp);
 
 		}
 	}
