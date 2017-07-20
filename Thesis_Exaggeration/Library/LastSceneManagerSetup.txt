@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/thesis_en.unity
-  isLoaded: 1
-  isActive: 1
