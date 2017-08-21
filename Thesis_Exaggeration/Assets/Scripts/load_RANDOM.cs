@@ -6,9 +6,9 @@ public class load_RANDOM : MonoBehaviour {
 
 void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "player")
+        if (col.gameObject.tag == "Player")
         {
-            Application.LoadLevel(Random.Range(1, 4));
+            Application.LoadLevel(Random.Range(3, 5));
         }
     }
 }

@@ -17,3 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/thesis_ver12.unity
     guid: 919496f52e7f6f24a9c743bd73362481
+  - enabled: 1
+    path: Assets/softbody_25.unity
+    guid: fd7f5cf2acc6fba4795eda5c45c8e649
+  - enabled: 1
+    path: Assets/softbody_50.unity
+    guid: 931a982bf96d5184dad0b3d3cc01fead
+  - enabled: 1
+    path: Assets/softbody_75.unity
+    guid: 93935f311551e9140be82a6e45691e30
