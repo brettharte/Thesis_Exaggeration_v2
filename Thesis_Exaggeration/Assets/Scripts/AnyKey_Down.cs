@@ -8,7 +8,7 @@ public class AnyKey_Down : MonoBehaviour
     {
         if (OVRInput.Get(OVRInput.Button.One))
         {
-            Application.LoadLevel("thesis_ver18");
+            Application.LoadLevel("touch_control");
         }
     }
 }

@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/thesis_ver12.unity
-    guid: 919496f52e7f6f24a9c743bd73362481
   - enabled: 1
     path: Assets/warning_screen.unity
     guid: 36a3aad9133801245860ed0fb1b3cd9c
   - enabled: 1
+    path: Assets/touch_control.unity
+    guid: 0c08363d76de8044aa40b40eec1cf8da
+  - enabled: 0
     path: Assets/thesis_ver18.unity
     guid: 737453c3957cf4c4eaabc5615bf6190a
+  - enabled: 0
+    path: Assets/thesis_ver12.unity
+    guid: 919496f52e7f6f24a9c743bd73362481
