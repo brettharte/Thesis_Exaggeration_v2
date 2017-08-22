@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class load_RANDOM : MonoBehaviour {
 
-void OnTriggerEnter(Collider col)
+
+   
+
+    void OnTriggerEnter(Collider col)
     {
         if (col.gameObject.tag == "Player")
         {
-            Application.LoadLevel(Random.Range(3, 5));
+
+            StartCoroutine(newshapes());
+
         }
     }
+
+    IEnumerator newshapes()
+        
+        {
+        yield return new WaitForSeconds(4);
+        Application.LoadLevel(Random.Range(3, 6));
+        }
 }

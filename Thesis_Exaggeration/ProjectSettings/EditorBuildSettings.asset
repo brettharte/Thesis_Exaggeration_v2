@@ -11,12 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/touch_control.unity
     guid: 0c08363d76de8044aa40b40eec1cf8da
-  - enabled: 0
-    path: Assets/thesis_ver18.unity
-    guid: 737453c3957cf4c4eaabc5615bf6190a
-  - enabled: 0
-    path: Assets/thesis_ver12.unity
-    guid: 919496f52e7f6f24a9c743bd73362481
+  - enabled: 1
+    path: Assets/softbody_O.unity
+    guid: 3f0ea92d2f6ef384b935e5f2f4977d11
   - enabled: 1
     path: Assets/softbody_25.unity
     guid: fd7f5cf2acc6fba4795eda5c45c8e649
@@ -26,3 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/softbody_75.unity
     guid: 93935f311551e9140be82a6e45691e30
+  - enabled: 0
+    path: Assets/thesis_ver12.unity
+    guid: 919496f52e7f6f24a9c743bd73362481
+  - enabled: 0
+    path: Assets/thesis_ver18.unity
+    guid: 737453c3957cf4c4eaabc5615bf6190a

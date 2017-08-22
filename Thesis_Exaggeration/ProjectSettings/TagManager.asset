@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - music
+  - Game_Env_Player
   layers:
   - Default
   - TransparentFX
