@@ -8131,6 +8131,7 @@ GameObject:
   - component: {fileID: 2113462362}
   - component: {fileID: 2113462364}
   - component: {fileID: 2113462363}
+  - component: {fileID: 2113462365}
   m_Layer: 0
   m_Name: OVRCameraRig
   m_TagString: Untagged
@@ -8188,6 +8189,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   usePerEyeCameras: 0
   useFixedUpdateForTracking: 0
+--- !u!114 &2113462365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2113462361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c773333fc996b84cbd1e3e183d4f3b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2119207377
 GameObject:
   m_ObjectHideFlags: 0
