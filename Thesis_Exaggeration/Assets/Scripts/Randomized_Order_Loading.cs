@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Jelly_Percent0 : MonoBehaviour {
+public class Randomized_Order_Loading : MonoBehaviour {
 
     void OnTriggerEnter(Collider col)
     {

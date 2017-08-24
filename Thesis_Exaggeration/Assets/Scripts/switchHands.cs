@@ -13,6 +13,9 @@ public class switchHands : MonoBehaviour {
         fist = this.transform.Find("fist").gameObject;
         openhand = this.transform.Find("openhand").gameObject;
         pointinghand = this.transform.Find("pointinghand").gameObject;
+        foreach (Transform child in transform) {
+            child.gameObject.SetActive(false);
+        }
         if (this.name.ToLower().Contains("right"))
         {
             indexfingerbutton = OVRInput.Button.SecondaryIndexTrigger;
