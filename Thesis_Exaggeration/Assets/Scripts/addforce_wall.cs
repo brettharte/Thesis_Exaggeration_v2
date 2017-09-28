@@ -7,28 +7,35 @@ public class addforce_wall : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown ("space")); 
+        //if (Input.GetKeyDown ("space")); 
         wall.GetComponent<Rigidbody>();
-      //-- StartCoroutine("waitTwoSeconds");
+        StartCoroutine("waitTwoSeconds");
 
-    }
+        //-- if (gameObject.tag == "cube")
+        //--{DestroyObject(gameObject);
+        //-- }
+       }
 
-    void FixedUpdate()
+        void FixedUpdate()
     {
         wall.AddForce(Vector3.back * 75f, ForceMode.Force);
     }
 
-   //-- IEnumerator waitTwoSeconds()
-    //--{
+    IEnumerator waitTwoSeconds()
+    {
         //	yield return new WaitForSeconds (1);
         //GameObject.FindGameObjectWithTag("cube");
         //foreach (GameObject target in gameObject); 
         //{
-        //	gameObject.tag = "cube".AddComponent<Rigidbody> ();	
+       	//if(other.gameObject.tag == "cube").AddComponent<Rigidbody> ();
         //}	
         //{
-       //-- yield return new WaitForSeconds(2);
-        //--wall.transform.DetachChildren();
+        yield return new WaitForSeconds(2);
+        //wall.transform.DetachChildren();
+        if (gameObject.tag == "cube")
+        {
+            wall.transform.DetachChildren();
+            //DestroyObject(gameObject);
+        }
     }
-//}
-//}
+}
