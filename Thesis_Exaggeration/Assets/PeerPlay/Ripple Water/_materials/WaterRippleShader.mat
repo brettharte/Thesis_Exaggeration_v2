@@ -65,4 +65,4 @@ Material:
     - _zImpact7: 0
     - _zImpact8: 0
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.4044118, g: 0.4044118, b: 0.4044118, a: 1}

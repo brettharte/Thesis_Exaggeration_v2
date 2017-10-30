@@ -7,6 +7,7 @@ TagManager:
   - music
   - Game_Env_Player
   - cube
+  - wall
   layers:
   - Default
   - TransparentFX
