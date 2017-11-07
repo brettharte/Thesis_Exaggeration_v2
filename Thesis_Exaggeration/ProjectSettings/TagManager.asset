@@ -8,6 +8,8 @@ TagManager:
   - Game_Env_Player
   - cube
   - wall
+  - Wall_Collider_Fall
+  - Falling_wall
   layers:
   - Default
   - TransparentFX
