@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -29,7 +30,9 @@ public static class IListExtensions
 
 public class Randomized_Order_Loading : MonoBehaviour {
     // the possible scenes to be loaded in randomized order:
-    private static IList<int> sceneOrder = new List<int>() { 2, 3, 4 };
+    private static IList<int> sceneOrder = new List<int>() { 1, 6 };
+    private static IList<int> scenesOneOrder = new List<int>() { 2, 3, 4, 5 };
+    private static IList<int> scenesTwoOrder = new List<int>() { 7, 8, 9, 10 };
     private static bool not_yet_randomized = true;
     private static IEnumerator<int> sceneIterator;
 
@@ -37,21 +40,32 @@ public class Randomized_Order_Loading : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            if (not_yet_randomized) {
+            if (not_yet_randomized)
+            {
                 not_yet_randomized = false;
                 // determine a random order for the following scenes
                 sceneOrder.Shuffle();
+                scenesOneOrder.Shuffle();
+                scenesTwoOrder.Shuffle();
+                foreach (int scene in scenesOneOrder)
+                {
+                    sceneOrder.Insert(sceneOrder.IndexOf(1) + 1, scene);
+                }
+                foreach (int scene in scenesTwoOrder)
+                {
+                    sceneOrder.Insert(sceneOrder.IndexOf(6) + 1, scene);
+                }
+                // write the scene order we decided into a file:
+                Debug.Log("Scene Order will be: " + string.Join(", ", sceneOrder.Select(x => x.ToString()).ToArray()));
+                //TODO!!!
                 // get an iterator that can be used later
                 sceneIterator = sceneOrder.GetEnumerator();
-                // and for now switch to the 0% scene
-                SceneManager.LoadScene("softbody_O");
+            }
+            // switch to the next scene in the randomized order
+            if (sceneIterator.MoveNext()) {
+                SceneManager.LoadScene(sceneIterator.Current);
             } else {
-                // switch to the next scene in the randomized order
-                if (sceneIterator.MoveNext()) {
-                    SceneManager.LoadScene(sceneIterator.Current);
-                } else {
-                    // end of scenes! TODO
-                }
+                // end of scenes! TODO
             }
         }
     }

@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class addtorque : MonoBehaviour
 {
-    private Rigidbody wall;
+    public Rigidbody wall;
 
-
-    void Start()
+    void Update()
     {
-        wall = GetComponent<Rigidbody>();
-        StartCoroutine(AddTorquePeriodically());
+        //if (Input.GetKeyDown ("space")); 
+        wall.GetComponent<Rigidbody>();
+        //StartCoroutine("waitTwoSeconds");
+
+        //-- if (gameObject.tag == "cube")
+        //--{DestroyObject(gameObject);
+        //-- }
     }
 
-    IEnumerator AddTorquePeriodically()
+    void FixedUpdate()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(0.1f);
-            //wall.AddForce(Vector3.forward * 1000f, ForceMode.Force);
-            wall.AddTorque(Vector3.left * 10000000f, ForceMode.Force);
-        }
+        wall.AddForce(Vector3.left * 5f, ForceMode.Force);
+        wall.AddTorque(Vector3.left * 10000f, ForceMode.Force);
     }
 }

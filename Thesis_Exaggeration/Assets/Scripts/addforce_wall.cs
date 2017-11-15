@@ -18,8 +18,8 @@ public class addforce_wall : MonoBehaviour
 
     void FixedUpdate()
     {
-        //wall.AddForce(Vector3.back * 75f, ForceMode.Force);
-        //wall.AddTorque(Vector3.back * 75f, ForceMode.Force);
+        wall.AddForce(Vector3.back * 75f, ForceMode.Force);
+        wall.AddTorque(Vector3.back * 75f, ForceMode.Force);
     }
 
     IEnumerator waitTwoSeconds()

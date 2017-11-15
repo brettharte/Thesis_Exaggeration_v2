@@ -16,9 +16,7 @@ public class Safety_Wait_For_Button : MonoBehaviour
     {
         if (OVRInput.Get(OVRInput.Button.One) || Input.GetKeyDown(KeyCode.Space))
         {
-            // set the scene up with button and switchable hands:
-            GameObject.Find("LeftHandAnchor").GetComponent<switchHands>().enabled = true;
-            GameObject.Find("RightHandAnchor").GetComponent<switchHands>().enabled = true;
+            // set the scene up with initially deactivated elements:
             initiallyDeactived.SetActive(true);
             // finally destroy ourselves:
             Destroy(this.gameObject);
