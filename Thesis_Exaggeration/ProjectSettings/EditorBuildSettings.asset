@@ -23,3 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/softbody_100.unity
     guid: 6351af4e7f0b36d40b1427406b610440
+  - enabled: 1
+    path: Assets/crimble_0.unity
+    guid: ab66c2e7032fae041af7112c617ecd81
+  - enabled: 1
+    path: Assets/crimble_25.unity
+    guid: c177cfe71f6e3cd489e309ea45580cbb
+  - enabled: 1
+    path: Assets/crimble_50.unity
+    guid: dfbda96dc4c6ad54088ef623e94a3130
+  - enabled: 1
+    path: Assets/crimble_75.unity
+    guid: 231ed577d8d80b0448235495cc820cd0
+  - enabled: 1
+    path: Assets/crimble_100.unity
+    guid: 570398c9cd4dfb14681006b391c7023f
