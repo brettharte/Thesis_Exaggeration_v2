@@ -57,7 +57,10 @@ public class Randomized_Order_Loading : MonoBehaviour {
                 }
                 // write the scene order we decided into a file:
                 Debug.Log("Scene Order will be: " + string.Join(", ", sceneOrder.Select(x => x.ToString()).ToArray()));
-                //TODO!!!
+                // add the special notification scenes:
+                sceneOrder.Add(11); // add a scene at the end
+                sceneOrder.Insert(5, 12); // insert scene number 12 at position 6, i.e. after the first five scenes
+                Debug.Log("Scene Order (with special scenes) will be: " + string.Join(", ", sceneOrder.Select(x => x.ToString()).ToArray()));
                 // get an iterator that can be used later
                 sceneIterator = sceneOrder.GetEnumerator();
             }

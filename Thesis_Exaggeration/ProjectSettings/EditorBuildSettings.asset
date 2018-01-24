@@ -38,3 +38,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/crimble_100.unity
     guid: 570398c9cd4dfb14681006b391c7023f
+  - enabled: 1
+    path: Assets/end_game.unity
+    guid: 3a1b2dd20cc9e664491ec787c34d0232
+  - enabled: 1
+    path: Assets/middle_scene.unity
+    guid: 3e477ff6cf9778646a08073587e38679
