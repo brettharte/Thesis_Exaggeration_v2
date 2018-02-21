@@ -128,6 +128,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1751328480}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -180,6 +184,14 @@ Prefab:
       propertyPath: m_Name
       value: bottom_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -190,6 +202,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 559643456}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -241,6 +257,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: front_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -1039,6 +1063,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 633836720}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1090,6 +1118,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: front_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -1181,6 +1217,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1751328480}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1232,6 +1272,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: top_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -1403,6 +1451,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1560413754}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1455,6 +1507,14 @@ Prefab:
       propertyPath: m_Name
       value: top_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -1465,6 +1525,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2028428599}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1516,6 +1580,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: front_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -1864,6 +1936,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 272869370}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1915,6 +1991,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: bottom_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -2148,6 +2232,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1751328480}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.503523
@@ -2203,6 +2291,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -2380,6 +2476,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 559643456}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.4974985
@@ -2435,6 +2535,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -2937,6 +3045,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 716602482}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2988,6 +3100,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: bottom_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -3109,6 +3229,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1966171677}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3161,6 +3285,14 @@ Prefab:
       propertyPath: m_Name
       value: bottom_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -3175,6 +3307,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1560413754}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3226,6 +3362,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: front_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -3321,6 +3465,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1560413754}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3377,6 +3525,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -3425,6 +3581,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 272869370}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.503523
@@ -3481,6 +3641,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -3495,6 +3663,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 716602482}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3550,6 +3722,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -3607,6 +3787,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 272869370}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3662,6 +3846,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -3757,6 +3949,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 716602482}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.503523
@@ -3812,6 +4008,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -4318,6 +4522,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1751328480}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4369,6 +4577,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: front_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -5306,6 +5522,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 716602482}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5358,6 +5578,14 @@ Prefab:
       propertyPath: m_Name
       value: top_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -5406,6 +5634,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2028428599}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.4974985
@@ -5461,6 +5693,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -5550,6 +5790,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2028428599}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5601,6 +5845,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: bottom_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -5685,6 +5937,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 824921279}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5740,6 +5996,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -5927,6 +6191,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1560413754}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.503523
@@ -5983,6 +6251,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -5993,6 +6269,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 272869370}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.4974985
@@ -6048,6 +6328,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -6385,6 +6673,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2028428599}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6441,6 +6733,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -6451,6 +6751,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 559643456}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6503,6 +6807,14 @@ Prefab:
       propertyPath: m_Name
       value: bottom_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -6517,6 +6829,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 824921279}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.4974985
@@ -6572,6 +6888,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -6827,6 +7151,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 559643456}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.503523
@@ -6882,6 +7210,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -7320,6 +7656,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2028428599}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.503523
@@ -7376,6 +7716,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -7416,6 +7764,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1966171677}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7468,6 +7820,14 @@ Prefab:
       propertyPath: m_Name
       value: front_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -7482,6 +7842,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 824921279}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7533,6 +7897,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: top_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -7740,6 +8112,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 272869370}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7791,6 +8167,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: top_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -7876,6 +8260,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 272869370}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -7928,6 +8316,14 @@ Prefab:
       propertyPath: m_Name
       value: front_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -7938,6 +8334,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 824921279}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.503523
@@ -7993,6 +8393,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -8134,6 +8542,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1966171677}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.4974985
@@ -8189,6 +8601,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -8442,6 +8862,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 633836720}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8493,6 +8917,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: top_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -8588,6 +9020,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 633836720}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.503523
@@ -8643,6 +9079,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -8732,6 +9176,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1751328480}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8788,6 +9236,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -8798,6 +9254,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1966171677}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8849,6 +9309,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: top_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -8921,6 +9389,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 824921279}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8973,6 +9445,14 @@ Prefab:
       propertyPath: m_Name
       value: front_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -8987,6 +9467,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 559643456}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9043,6 +9527,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -9053,6 +9545,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1751328480}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.4974985
@@ -9109,6 +9605,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -9119,6 +9623,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1966171677}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9174,6 +9682,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -9496,6 +10012,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1560413754}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9547,6 +10067,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: bottom_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -9657,6 +10185,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 633836720}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9712,6 +10244,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -9915,6 +10455,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 716602482}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9966,6 +10510,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: front_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -10249,6 +10801,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 824921279}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10301,6 +10857,14 @@ Prefab:
       propertyPath: m_Name
       value: bottom_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -10315,6 +10879,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 2028428599}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10366,6 +10934,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: top_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -10619,6 +11195,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 559643456}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10671,6 +11251,14 @@ Prefab:
       propertyPath: m_Name
       value: top_cube
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -10715,6 +11303,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1966171677}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 4.503523
@@ -10770,6 +11362,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -10911,6 +11511,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 716602482}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.4974985
@@ -10966,6 +11570,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -11264,6 +11876,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1560413754}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.4974985
@@ -11319,6 +11935,14 @@ Prefab:
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
@@ -11582,6 +12206,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 633836720}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4.4974985
@@ -11638,6 +12266,14 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}
   m_IsPrefabParent: 0
@@ -11648,6 +12284,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 633836720}
     m_Modifications:
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: distance.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 490512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -11699,6 +12339,14 @@ Prefab:
     - target: {fileID: 190512, guid: 13e22a42054f993489586833930e9513, type: 2}
       propertyPath: m_Name
       value: bottom_cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: magnitudeDivider
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11490512, guid: 13e22a42054f993489586833930e9513, type: 2}
+      propertyPath: waveAmp
+      value: 3.125
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 13e22a42054f993489586833930e9513, type: 2}

@@ -19,11 +19,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 337ac93e12665eb4ba14cd1b0ca57bf3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a0abf4a2000b8db4b839f1a048fafbc8, type: 3}
         m_Scale: {x: 4, y: 4}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -35,11 +35,11 @@ Material:
     - _Distance6: 0
     - _Distance7: 0
     - _Distance8: 0
-    - _Frequency: 1.75
-    - _Glossiness: 0
-    - _Metallic: 0
+    - _Frequency: 5
+    - _Glossiness: 1
+    - _Metallic: 0.5
     - _Scale: 0.1
-    - _Speed: 0
+    - _Speed: 0.5
     - _WaveAmplitude1: 0
     - _WaveAmplitude2: 0
     - _WaveAmplitude3: 0
@@ -65,4 +65,4 @@ Material:
     - _zImpact7: 0
     - _zImpact8: 0
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 0.556, b: 1, a: 1}
